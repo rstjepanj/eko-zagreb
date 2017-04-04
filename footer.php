@@ -4,16 +4,16 @@
 			<div>
 				<h3>Kontakt</h3>
 				<p>Telefon: +385 95 525 22 87</p>
-				<p>Email: udrugaekozagreb@gmail.com</p>
+				<p>Email: kontakt@udrugaekozagreb.hr</p>
 				<p>Sjedište: Vlaška 46, Zagreb, 10 000</p>
 				<p>IBAN: HR25 2390 0011 1003 5345 3</p>
 			</div>
 			<div id="srednji-div-footera">
 				<h3><a href="<?php echo esc_url( home_url( '/' ) ); ?>multimedija">Multimedija</a></h3>
 				<ul>
-					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>fotografije">Fotografije</a></li>
-					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>video">Video</a></li>
-					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>dokumenti">Dokumenti</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>multimedija/fotografije">Fotografije</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>multimedija/video">Video</a></li>
+					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>multimedija/dokumenti">Dokumenti</a></li>
 				</ul>
 			</div>
 			<div>
