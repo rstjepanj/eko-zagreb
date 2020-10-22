@@ -20,7 +20,7 @@
 			</p>
 		</div>
 		<div id="sitemap" class="col-md">
-			<?php wp_nav_menu(array('name' => 'Sekundarni', 'container' => false, 'menu_class' => 'bottomnav', 'depth' => 1)); ?>
+			<?php wp_nav_menu(array('menu' => 'Sekundarni', 'menu_id' => 'sekundarni', 'container' => false, 'menu_class' => 'bottomnav', 'depth' => 1)); ?>
 		</div>
 	</div>
 </footer>

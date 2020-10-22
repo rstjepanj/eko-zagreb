@@ -20,13 +20,13 @@
                 </a>
 				<?php } ?>
             </div>
+			<?php } ?>
+			<?php if ($paged > 1) { ?>
+				<div style="display:inline-block; margin-top: 50px;"><?php next_posts_link('&laquo; Starije obavijesti'); ?></div><div style="display:inline-block; float: right; margin-top: 50px;"><?php previous_posts_link('Novije obavijesti &raquo;'); ?></div>
+			<?php } else { ?>
+				<div style="display:inline-block; margin-top: 50px;"><?php next_posts_link('&laquo; Starije obavijesti'); ?></div>
+			<?php } ?>
         </section>
-	<?php } ?>
-	<?php if ($paged > 1) { ?>
-		<div style="display:inline-block; margin-top: 50px;"><?php next_posts_link('&laquo; Starije obavijesti'); ?></div><div style="display:inline-block; float: right; margin-top: 50px;"><?php previous_posts_link('Novije obavijesti &raquo;'); ?></div>
-	<?php } else { ?>
-		<div style="display:inline-block; margin-top: 50px;"><?php next_posts_link('&laquo; Starije obavijesti'); ?></div>
-	<?php } ?>
 </main>
 <?php wp_reset_postdata(); ?>
 <?php get_footer();?>

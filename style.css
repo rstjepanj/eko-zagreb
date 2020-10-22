@@ -1,9 +1,9 @@
+@charset "UTF-8";
 /*
 Theme Name: Eko Zagreb 2 tema
 Version: 1.0
 Author: Rok Stjepanjek
 */
-
 * {
   box-sizing: border-box;
   -webkit-user-drag: none;
@@ -32,7 +32,7 @@ p {
   color: #637076;
 }
 
-ul {
+ul, ol, dl {
   list-style-position: inside;
 }
 

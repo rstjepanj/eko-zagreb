@@ -84,7 +84,7 @@
                     </div>
                 </a>
 				<?php } ?>
-                <a href="<?php echo esc_url( home_url( '/' ) ); ?>arhiva" class="lime-button">Sve vijesti</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>arhiva/" class="lime-button">Sve vijesti</a>
             </div>
         </section>
         <section id="events" class="section-padding container">

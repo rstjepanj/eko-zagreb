@@ -15,7 +15,7 @@
 <body>
     <header id="nav-bar">
         <div id="nav-bar-container" class="container">
-            <a href="#" id="header-logo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/logo-full.png" /></a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="header-logo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/logo-full.png" /></a>
             <nav id="nav-links">
 				<?php wp_nav_menu(array('name' => 'Primarni', 'container' => false, 'menu_class' => 'topnav', 'depth' => 1)); ?>
                 <form role="search" action="https://udrugaekozagreb.hr/" method="get" id="search">
