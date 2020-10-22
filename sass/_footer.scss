@@ -1,0 +1,45 @@
+footer {
+    border-top: 2px solid $light-grey;
+    font-size: 14px;
+    line-height: 27px;
+    #footer-logo {
+        width: 180px;
+    }
+    #copyright {
+        font-weight: 300;
+        letter-spacing: -0.01em;
+        color: $dark-grey;
+        margin-bottom: 12px;
+    }
+    #social svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 18px;
+    }
+    #contact-info {
+        letter-spacing: -0.01em;
+    }
+    #sitemap {
+        ul.bottomnav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            li {
+                a {
+                    display: block;
+                    text-align: left;
+                    padding: 20px 0;
+                }
+            }
+        }
+        a {
+            color: $dark-grey;
+            display: block;
+            transition: color 0.2s ease;
+            &:hover {
+                color: $lime;
+            }
+        }
+    }
+}

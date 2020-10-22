@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: $dark-grey;
+}
+
+a {
+    text-decoration: none;
+    color: $lime;
+    &:hover {
+        text-decoration: none;
+        color: $lime;
+    }
+}
+
+p {
+    color: $dark-grey;
+}
+
+.lime-color {
+    color: $lime;
+}
+
+.dark-grey-color {
+    color: $dark-grey;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.section-padding {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.title {
+    font-family: 'Lexend Deca';
+    font-size: 36px;
+    line-height: 45px;
+    color: $blue;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: 'Lexend Deca';
+    font-size: 30px;
+    line-height: 37px;
+    color: $green;
+    margin-bottom: 24px;
+}
+
+.article {
+    margin-bottom: 45px;
+    display: block;
+    img {
+        margin-right: 20px;
+        width: 120px;
+        height: 120px;
+        border-radius: 5px;
+        object-fit: cover;
+        float: left;
+        @media only screen and (max-width: $md) {
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            margin-bottom: 5px;
+        }
+    }
+    .subtitle {
+        margin-bottom: 16px;
+        transition: color 0.2s ease;
+    }
+    &:hover .subtitle {
+        color: $lime;
+    }
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type=search]::-ms-clear { display: none; width : 0; height: 0; }
+input[type=search]::-ms-reveal { display: none; width : 0; height: 0; }
+/* clears the ‘X’ from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; }
+
+/* resets iOS input rounded borders */
+input { border-radius: 0; }
+input[type="search"] { -webkit-appearance: none; }

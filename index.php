@@ -1,19 +1,16 @@
 <?php get_header(); ?>
-		<div id="glavni-dio-sa-obavijestima">
+<main>
+	<section id="articles" class="section-padding container">
+		<div id="articles-container">
 			<?php while (have_posts()) { the_post(); ?>
-			<article>
-				<h2><?php the_title(); ?></h2>
-				<div class="clearfix">
-					<div class="vijest">
-						<?php the_content(); ?>
-					</div>
+			<div class="article">
+				<h2 class="subtitle"><?php the_title(); ?></h2>
+				<div class="article-text clearfix">
+					<?php the_content(); ?>
 				</div>
-			</article>
+			</div>
 			<?php } ?>
 		</div>
-		<aside>
-			<div id="sponzori">
-				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/stari-logo.jpg">
-			</div>
-		</aside>
+	</section>
+</main>
 <?php get_footer(); ?>

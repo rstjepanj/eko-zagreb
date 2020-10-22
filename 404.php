@@ -1,12 +1,7 @@
 <?php get_header(); ?>
-		<div id="glavni-dio-sa-obavijestima">
-			<article>
-				<h1 style="text-align: center;">404 - Tražena stranica ne postoji</h2>
-			</article>
-		</div>
-		<aside>
-			<div id="sponzori">
-				<img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/stari-logo.jpg">
-			</div>
-		</aside>	
+<main class="404">
+	<section class="section-padding container">
+		<h1 class="title">404 - Tražena stranica ne postoji</h1>
+	</section>
+</main>
 <?php get_footer(); ?>
