@@ -19,9 +19,10 @@
 			</a>
 		<?php } ?>
 		<?php if ($paged > 1) { ?>
-			<div style="display:inline-block;"><?php next_posts_link('Starije obavijesti'); ?></div><div style="display:inline-block; float: right;"><?php previous_posts_link('Novije obavijesti'); ?></div>
+			<div style="display:inline-block; float: left;"><?php previous_posts_link('Novije obavijesti'); ?></div>
+			<div style="display:inline-block; float: right;"><?php next_posts_link('Starije obavijesti'); ?></div>
 		<?php } else { ?>
-			<div style="display:inline-block;"><?php next_posts_link('Starije obavijesti'); ?></div>
+			<div style="display:inline-block; float: right;"><?php next_posts_link('Starije obavijesti'); ?></div>
 		<?php } ?>
 		</div>
 	</section>
