@@ -3,6 +3,7 @@ Theme Name: Eko Zagreb 2 tema
 Version: 1.0
 Author: Rok Stjepanjek
 */
+
 * {
   box-sizing: border-box;
   -webkit-user-drag: none;
@@ -29,6 +30,10 @@ a:hover {
 
 p {
   color: #637076;
+}
+
+ul {
+  list-style-position: inside;
 }
 
 .lime-color {
@@ -93,7 +98,8 @@ p {
   margin-bottom: 16px;
   transition: color 0.2s ease;
 }
-.article:hover .subtitle {
+
+a.article:hover .subtitle {
   color: #84bd3a;
 }
 
@@ -169,6 +175,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  height: 16px;
 }
 #nav-bar #nav-bar-container #nav-links ul.topnav li {
   float: left;
@@ -313,6 +320,9 @@ body {
     -webkit-transform: translate3d(0, -100%, -10px);
     transform: translate3d(0, -100%, -10px);
   }
+  #nav-bar #nav-bar-container #nav-links ul.topnav {
+    height: auto;
+  }
   #nav-bar #nav-bar-container #nav-links ul.topnav li {
     float: none;
   }
@@ -359,7 +369,6 @@ footer #sitemap ul.bottomnav {
 footer #sitemap ul.bottomnav li a {
   display: block;
   text-align: left;
-  padding: 20px 0;
 }
 footer #sitemap a {
   color: #637076;

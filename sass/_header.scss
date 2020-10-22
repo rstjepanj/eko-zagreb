@@ -37,6 +37,7 @@ body {
                 margin: 0;
                 padding: 0;
                 overflow: hidden;
+                height: 16px;
                 li {
                     float: left;
                     a {
@@ -182,6 +183,7 @@ body {
                 -webkit-transform: translate3d(0,-100%,-10px);
                 transform: translate3d(0,-100%,-10px);
                 ul.topnav {
+                    height: auto;
                     li {
                         float: none;
                         a {

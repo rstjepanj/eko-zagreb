@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 <main class="search">
 
-	<h1><?php printf('Rezultati pretraživanja za: ' . '<span>' . get_search_query() . '</span>' ); ?></h1>
 
 	<?php if ( have_posts() ) : ?>
 
 		<section id="articles" class="section-padding container">
+			<h2 style="margin-bottom: 60px;"><?php printf('Rezultati pretraživanja za: ' . '<strong>' . get_search_query() . '</strong>' ); ?></h2>
             <div id="articles-container">
 				<?php while (have_posts()) { the_post(); ?>
 				<a href="<?php the_permalink(); ?>" class="article">
@@ -24,6 +24,7 @@
 	<?php else : ?>
 
 		<section id="articles" class="section-padding container">
+			<h2 style="margin-bottom: 60px;"><?php printf('Rezultati pretraživanja za: ' . '<strong>' . get_search_query() . '</strong>' ); ?></h2>
             <div id="articles-container">
 				<div class="article">
                     <h2 class="subtitle">Nema rezultata</h2>

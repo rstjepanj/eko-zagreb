@@ -26,6 +26,10 @@ p {
     color: $dark-grey;
 }
 
+ul {
+    list-style-position: inside;
+}
+
 .lime-color {
     color: $lime;
 }
@@ -85,9 +89,9 @@ p {
         margin-bottom: 16px;
         transition: color 0.2s ease;
     }
-    &:hover .subtitle {
-        color: $lime;
-    }
+}
+a.article:hover .subtitle {
+    color: $lime;
 }
 
 /* clears the ‘X’ from Internet Explorer */

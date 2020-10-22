@@ -108,7 +108,7 @@
 				<?php else : ?>
 					<p style="text-align: center; margin-bottom: 45px;">Trenutno nema aktualnih dogadanja</p>
 				<?php endif; ?>
-                <a href="#" class="lime-button">Sva događanja</a>
+                <a href="<?php echo esc_url( home_url( '/' ) ); ?>edukacije" class="lime-button">Sva događanja</a>
             </div>
         </section>
         <section id="donate" class="section-padding container">
