@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main class="search">
+<main class="searchpage">
 
 
 	<?php if ( have_posts() ) : ?>

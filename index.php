@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<main>
+<main class="indexpage">
 	<section id="articles" class="section-padding container">
 		<div id="articles-container">
 			<?php while (have_posts()) { the_post(); ?>
