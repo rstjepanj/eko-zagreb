@@ -17,11 +17,7 @@
         <div id="nav-bar-container" class="container">
             <a href="#" id="header-logo"><img src="<?php echo esc_url( home_url( '/' ) ); ?>wp-content/uploads/logo-full.png" /></a>
             <nav id="nav-links">
-				<?php wp_nav_menu(array('name' => 'Primarni', 'container' => false, 'menu_class' => 'topnav')); ?>
-                <a href="#">O nama</a>
-                <a href="#">Vijesti</a>
-                <a href="#">Događanja</a>
-                <a href="#">Publikacije</a>
+				<?php wp_nav_menu(array('name' => 'Primarni', 'container' => false, 'menu_class' => 'topnav', 'depth' => 1)); ?>
                 <form role="search" action="https://udrugaekozagreb.hr/" method="get" id="search">
                     <input type="search" autocomplete="off" name="s" value="<?php the_search_query(); ?>" id="search-text" placeholder="Pretraživanje">
                     <button type="submit" id="search-button" value="">
