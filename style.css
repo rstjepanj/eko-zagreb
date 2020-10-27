@@ -3,7 +3,6 @@ Theme Name: Eko Zagreb 2 tema
 Version: 1.0
 Author: Rok Stjepanjek
 */
-
 * {
   box-sizing: border-box;
   -webkit-user-drag: none;
@@ -503,7 +502,11 @@ footer #sitemap a:hover {
 }
 
 .indexpage .article .subtitle {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+.indexpage .section-padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
